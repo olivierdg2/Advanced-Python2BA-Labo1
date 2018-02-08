@@ -8,23 +8,15 @@ import math
 
 class TestUtils(unittest.TestCase):
     def test_fact(self):
-        if n == 0:
-            return 1
-        else:
-            return n * fact(n - 1)
+        self.assertEqual(fact(3),6)
+        self.assertEqual(fact(1),1)
+        self.assertEqual(fact(0),1)
+        self.assertEqual(fact(5),120)
+
         pass
     
     def test_roots(self):
-        delta = b^2 - (4*a*c)
-        if delta > 0
-            root1 = (b + sqrt(delta))/(2*a)
-            root2 = (b - sqrt(delta))/(2*a)
-            return (root1,root2)
-        if delta = 0
-            root = (b/(2*a))
-            return (root)
-        else
-            return()
+        sel.assertEqual(roots(1,1,1),)
         pass
     
     def test_integrate(self):
